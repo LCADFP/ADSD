@@ -30,6 +30,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
@@ -47,7 +48,10 @@ import static android.Manifest.permission.READ_CONTACTS;
 
 /**
  * A login screen that offers login via email/password.
+ *
  */
+
+
 public class LoginApp extends AppCompatActivity implements LoaderCallbacks<Cursor> {
 
     /**
@@ -387,11 +391,6 @@ public class LoginApp extends AppCompatActivity implements LoaderCallbacks<Curso
             mAuthTask = null;
             showProgress(false);
         }
-    }
-
-
-    public void sendMessage(View view) {
-        // Do something in response to button
     }
 }
 
